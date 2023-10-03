@@ -3,6 +3,7 @@ import FistScreen from './src/screen/FistScreen';
 import Screen1_a from './src/screen/Screen1_a';
 import Screen1_b from './src/screen/Screen1_b';
 import Screen1_c from './src/screen/Screen1_c';
+import Screen1_d from './src/screen/Screen1_d';
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
       {/* <FistScreen/> */}
       {/* <Screen1_a/> */}
       {/* <Screen1_b/> */}
-      <Screen1_c/>
+      {/* <Screen1_c/> */}
+      <Screen1_d/>
     </>
   );
 }
