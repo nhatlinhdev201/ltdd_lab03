@@ -1,4 +1,4 @@
-import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, Text, View, TouchableOpacity } from 'react-native'
 import React from 'react'
 
 const FistScreen = () => {
@@ -18,6 +18,30 @@ const FistScreen = () => {
             >
                 We will help you to grow your business using online server
             </Text>
+            <View 
+                style={styles.groupBtn}
+            >
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={{/*  */}}
+                >
+                    <Text
+                        style={styles.txtButton}
+                    >
+                        LOGIN
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={{/*  */}}
+                >
+                    <Text
+                        style={styles.txtButton}
+                    >
+                        SIGN UP
+                    </Text>
+                </TouchableOpacity>
+            </View>
         </View>
     )
 }
@@ -52,5 +76,28 @@ const styles = StyleSheet.create({
         width: '350px',
         paddingTop: 50,
         color: 'black'
+    },
+    groupBtn : {
+        flexDirection: 'row',
+        paddingTop: '80px',
+        margin: '0 30px'
+
+    },
+    button: {
+        backgroundColor: 'rgba(227, 192, 0, 1)',
+        height: '45px',
+        width:'119px',
+        borderRadius: '10px',
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: '20px'
+    },
+    txtButton: {
+        width: '80px',
+        height: '23px',
+        fontSize: '20px',
+        fontWeight: '700',
+        lineHeight: '23.44px',
+        textAlign: 'center'
     }
 })
