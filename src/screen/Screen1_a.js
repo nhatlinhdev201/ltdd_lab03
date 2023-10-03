@@ -1,7 +1,7 @@
 import { Image, StyleSheet, Text, View, TouchableOpacity } from 'react-native'
 import React from 'react'
 
-const Screen1_a = () => {
+const Screen1_b = () => {
     return (
         <View style={styles.main}>
             <View style={styles.gradient} />
@@ -52,7 +52,7 @@ const Screen1_a = () => {
     )
 }
 
-export default Screen1_a;
+export default Screen1_b;
 
 const styles = StyleSheet.create({
     main: {
