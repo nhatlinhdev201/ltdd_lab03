@@ -1,9 +1,10 @@
 import { Image, StyleSheet, Text, View, TouchableOpacity } from 'react-native'
 import React from 'react'
 
-const FistScreen = () => {
+const Screen1_a = () => {
     return (
         <View style={styles.main}>
+            <View style={styles.gradient} />
             <Image
                 source={require('../../assets/Ellipse8.png')}
                 style={styles.image_banner}
@@ -23,9 +24,7 @@ const FistScreen = () => {
             >
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => {
-                        /*  */
-                    }}
+                    onPress={{/*  */}}
                 >
                     <Text
                         style={styles.txtButton}
@@ -44,22 +43,32 @@ const FistScreen = () => {
                     </Text>
                 </TouchableOpacity>
             </View>
+            <Text
+                style={styles.textP2}
+            >
+                HOW WE WORK ?
+            </Text>
         </View>
     )
 }
 
-export default FistScreen
+export default Screen1_a;
 
 const styles = StyleSheet.create({
     main: {
         flex: 1,
         alignItems: 'center',
-        paddingTop: '20%',
-        backgroundColor: '#ccf2ff'
+    },
+    gradient: {
+        position:'absolute',
+        width: '100%',
+        height:'100%',
+        backgroundImage: 'linear-gradient(#C7F4F6, #D1F4F6, #E5F4F5, #00CCF9)',
     },
     image_banner: {
         width: 150,
-        height: 150
+        height: 150,
+        marginTop: '20%'
     },
     textH1: {
         textAlign: 'center',
@@ -77,6 +86,14 @@ const styles = StyleSheet.create({
         fontFamily: 'Roboto',
         width: '350px',
         paddingTop: 50,
+        color: 'black'
+    },
+    textP2 : {
+        textAlign: 'center',
+        fontSize: 17,
+        fontWeight: 800,
+        fontFamily: 'Roboto',
+        width: '350px',
         color: 'black'
     },
     groupBtn : {
