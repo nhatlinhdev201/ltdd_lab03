@@ -60,4 +60,7 @@ Chạy lệnh : `npm run web`
 ![screen App.js](image/app.png)
 
 
+## Dự án được thực hiện bởi Pham Nhat Linh
+ Email : nhatlinhdev201@gmail.com
+ 
 
