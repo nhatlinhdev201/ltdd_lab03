@@ -7,6 +7,7 @@ import Screen1_d from './src/screen/Screen1_d';
 import Screen1_e from './src/screen/Screen1_e';
 import GenderSelection from './src/screen/GenderSelection';
 import Screen2_a from './src/screen/Screen2_a';
+import ScreenXMEye from './src/screen/ScreenXMEye';
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <Screen1_c/> */}
       {/* <Screen1_d/> */}
       {/* <Screen1_e/> */}
-      <Screen2_a/>
+      {/* <Screen2_a/> */}
+      <ScreenXMEye/>
     </>
   );
 }
