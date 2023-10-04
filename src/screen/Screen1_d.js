@@ -57,8 +57,45 @@ const Screen1_d = () => {
                 For got your password?
             </Text>
             <Text style={styles.txt2}>
-            Or login with
+                Or login with
             </Text>
+            <View
+                style={styles.groupMoreLogin}
+            >
+                <TouchableOpacity 
+                    style={styles.btnMoreLogin}
+                    onPress={() => {
+                        /*  */
+                    }}
+                >
+                    <Image 
+                        style={styles.imgMoreLogin} 
+                        source={require('../../assets/fb.png')}
+                    />
+                </TouchableOpacity>
+                <TouchableOpacity 
+                    style={styles.btnMoreLogin}
+                    onPress={() => {
+                        /*  */
+                    }}
+                >
+                    <Image 
+                        style={styles.imgMoreLogin} 
+                        source={require('../../assets/zalo.png')}
+                    />
+                </TouchableOpacity>
+                <TouchableOpacity 
+                    style={styles.btnMoreLogin}
+                    onPress={() => {
+                        /*  */
+                    }}
+                >
+                    <Image 
+                        style={styles.imgMoreLogin} 
+                        source={require('../../assets/gg.png')}
+                    />
+                </TouchableOpacity>
+            </View>
         </View>
     )
 }
@@ -113,17 +150,29 @@ const styles = StyleSheet.create({
         color: 'white',
         fontWeight: '700'
     },
-    txt2 : {
+    txt2: {
         fontSize: '14px',
         fontWeight: '400',
         textAlign: 'center',
         marginTop: '20px'
     },
-    txt3 : {
+    txt3: {
         fontSize: '14px',
         fontWeight: '400',
         textAlign: 'center',
         marginTop: '20px',
-        color : '#5D25FA'
+        color: '#5D25FA'
+    },
+    groupMoreLogin : {
+        flexDirection: 'row',
+        marginTop: '40px'
+    },
+    btnMoreLogin : {
+
+    },
+    imgMoreLogin : {
+        height: '50px',
+        width : '100px',
+        borderRadius: '5px'
     }
 })
