@@ -4,6 +4,8 @@ import Screen1_a from './src/screen/Screen1_a';
 import Screen1_b from './src/screen/Screen1_b';
 import Screen1_c from './src/screen/Screen1_c';
 import Screen1_d from './src/screen/Screen1_d';
+import Screen1_e from './src/screen/Screen1_e';
+import GenderSelection from './src/screen/GenderSelection';
 
 export default function App() {
   return (
@@ -12,7 +14,8 @@ export default function App() {
       {/* <Screen1_a/> */}
       {/* <Screen1_b/> */}
       {/* <Screen1_c/> */}
-      <Screen1_d/>
+      {/* <Screen1_d/> */}
+      <Screen1_e/>
     </>
   );
 }
