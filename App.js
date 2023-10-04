@@ -5,7 +5,6 @@ import Screen1_b from './src/screen/Screen1_b';
 import Screen1_c from './src/screen/Screen1_c';
 import Screen1_d from './src/screen/Screen1_d';
 import Screen1_e from './src/screen/Screen1_e';
-import GenderSelection from './src/screen/GenderSelection';
 import Screen2_a from './src/screen/Screen2_a';
 import ScreenXMEye from './src/screen/ScreenXMEye';
 
